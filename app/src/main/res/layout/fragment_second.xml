@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:text="left_side"
+        android:text="left_sidっっleft_sidっっっっっっseっっっっse"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
