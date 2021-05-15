@@ -10,12 +10,8 @@ class MainActivity : AppCompatActivity() {
 
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-
-        // BackStackを設定
-        fragmentTransaction.addToBackStack(null)
-
-        // パラメータを設定
         fragmentTransaction.replace(R.id.container, FirstFragment())
+        fragmentTransaction.addToBackStack(null)
         fragmentTransaction.commit()
     }
 }

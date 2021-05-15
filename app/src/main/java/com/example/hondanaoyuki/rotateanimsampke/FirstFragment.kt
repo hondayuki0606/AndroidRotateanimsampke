@@ -16,6 +16,6 @@ class FirstFragment : Fragment() {
     ): View {
         super.onCreateView(inflater, container, savedInstanceState)
         // 先ほどのレイアウトをここでViewとして作成します
-        return inflater.inflate(R.layout.fragment_barrier, container, false)
+        return inflater.inflate(R.layout.fragment_first, container, false)
     }
 }
